@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Form</title>
+</head>
+<body>
+    <fieldset>
+        <center>
+    <h2>Sample Form </h2></center>
+    <form>
+
+        <label > First name:</label>
+            <input type="text"><br><br>
+
+            <label >Last Name:</label>
+            <input type="text" ><br><br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+    
+        <label for="time">Select a time:</label>
+        <input type="time" id="time" name="time">
+        <br><br>
+
+        <label for="datetime-local">Select a local date and time:</label>
+        <input type="datetime-local" id="datetime-local" name="datetime-local">
+        <br><br>
+
+        
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+        <br><br>
+
+        
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+        <br><br>
+
+        
+        <label for="color">Choose a color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <br><br>
+
+        
+        <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <br><br>
+
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="text area"></textarea>
+        <br><br><br><br><br><br><br><br><br><br>
+        <center>
+
+        <input type="submit" value="Submit">
+        </center>
+    </form>
+    </fieldset>
+</body>
+</html>
